@@ -1,0 +1,48 @@
+.qv-object-cycleplot div.qv-object-content-container {
+	font: 10px sans-serif;
+}
+
+.qv-object-cycleplot svg {
+  font: 12px sans-serif;
+  padding: 10px;
+}
+.qv-object-cycleplot .chart {
+    shape-rendering: crispEdges;
+}
+
+.qv-object-cycleplot .axis path,
+.qv-object-cycleplot .axis line {
+  fill: none;
+  stroke: #666;
+  stroke-width: 1.5px;
+  shape-rendering: crispEdges;
+}
+
+.qv-object-cycleplot .axis text{
+		font: 12px sans-serif;
+}
+
+.qv-object-cycleplot .line, .mean{
+    fill: none;
+    stroke-width: 1.5px;
+}
+  
+.qv-object-cycleplot .mean {
+    stroke-opacity: 0.5;
+}
+
+.qv-object-cycleplot .yAxisDot .minor line {
+  stroke: #777;
+  stroke-dasharray: 2,2;
+}
+
+.qv-object-cycleplot .yAxisDot text{
+	font: 0px sans-serif;
+}
+
+.qv-object-cycleplot .yAxisDot path{
+	display: none;
+}
+.qv-object-cycleplot .yAxisDot line{
+	
+}
